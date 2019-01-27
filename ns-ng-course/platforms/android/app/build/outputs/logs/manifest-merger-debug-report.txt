@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a8a20cebec63fab5ac85cd37777c8876/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8faec037030d3c7c5234df6973c900f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/224a5816baaf96ea3e63026824fb13e0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/96839b3fb2aeb2d50f1ce97e8ffcf22d/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/52541b8b96798934542c2bc4bc26f2f5/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/214d392662592a5065321a22df75295f/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9b040cd3e3e31051c789a4638166753a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/efcf9298d6297e169437617d52aa5b5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/175c9c2be609948ef5c8f69448ea8b2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e146155be6fea1c29f98f05fb7be3e3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/599d5f777fcbcc6543ff79e16d6d344e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/41dbb4018666eb32477647d541a5424a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1f5647c95d9421738d32f0031d78ad3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1d6c755796e032c78b44392f761be0a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/42166885210470445079f3c5467e62b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/62288a4610b713226d6f2d7952395e40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d45b272d1306c4c7e9f122102861182e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af3d4b586eb0df85fbe7ff48ffbbde42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/085c4efe9b4e5ac5490819d90328b98c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/712fe77b12369962b139db607f38ad05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/faa057d1dabac31ec36a71b26d9db8ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/32217ae6d94d0bb05bd532a7ce122afc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/005e6410cc66af4fc890b74b445bdb8e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/55e9be20b338ec43f0aa03eb63c232ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/993deb7ce13466a939604ec639ed2da2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9c88b562a9defa5afc93e39a90d584ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/044f7498750190219102b9d5e231b46c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9bec4027f8a7c1522b230cd4adca3b56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9feb6a669b7a5f312a30450b50e68cfb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ae9944775905b19cd7945f2e6dee345/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4bb6d5925ee87889430659090cfc95ea/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ea59d90d59724dc34b6be54de4b5fa32/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b2d01fa97d54b9314f888d14057abba/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fd7d04e21f01ffaa885ace597f73ed7/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:3:2-39
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:multidex:1.0.2] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a8a20cebec63fab5ac85cd37777c8876/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/a8a20cebec63fab5ac85cd37777c8876/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8faec037030d3c7c5234df6973c900f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8faec037030d3c7c5234df6973c900f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/224a5816baaf96ea3e63026824fb13e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/224a5816baaf96ea3e63026824fb13e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/96839b3fb2aeb2d50f1ce97e8ffcf22d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/96839b3fb2aeb2d50f1ce97e8ffcf22d/AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/52541b8b96798934542c2bc4bc26f2f5/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/52541b8b96798934542c2bc4bc26f2f5/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/214d392662592a5065321a22df75295f/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/214d392662592a5065321a22df75295f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9b040cd3e3e31051c789a4638166753a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9b040cd3e3e31051c789a4638166753a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/efcf9298d6297e169437617d52aa5b5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/efcf9298d6297e169437617d52aa5b5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/175c9c2be609948ef5c8f69448ea8b2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/175c9c2be609948ef5c8f69448ea8b2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e146155be6fea1c29f98f05fb7be3e3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e146155be6fea1c29f98f05fb7be3e3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/599d5f777fcbcc6543ff79e16d6d344e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/599d5f777fcbcc6543ff79e16d6d344e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/41dbb4018666eb32477647d541a5424a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/41dbb4018666eb32477647d541a5424a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1f5647c95d9421738d32f0031d78ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1f5647c95d9421738d32f0031d78ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1d6c755796e032c78b44392f761be0a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1d6c755796e032c78b44392f761be0a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/42166885210470445079f3c5467e62b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/42166885210470445079f3c5467e62b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/62288a4610b713226d6f2d7952395e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/62288a4610b713226d6f2d7952395e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d45b272d1306c4c7e9f122102861182e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d45b272d1306c4c7e9f122102861182e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af3d4b586eb0df85fbe7ff48ffbbde42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af3d4b586eb0df85fbe7ff48ffbbde42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/085c4efe9b4e5ac5490819d90328b98c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/085c4efe9b4e5ac5490819d90328b98c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/712fe77b12369962b139db607f38ad05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/712fe77b12369962b139db607f38ad05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/faa057d1dabac31ec36a71b26d9db8ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/faa057d1dabac31ec36a71b26d9db8ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/32217ae6d94d0bb05bd532a7ce122afc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/32217ae6d94d0bb05bd532a7ce122afc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/005e6410cc66af4fc890b74b445bdb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/005e6410cc66af4fc890b74b445bdb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/55e9be20b338ec43f0aa03eb63c232ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/55e9be20b338ec43f0aa03eb63c232ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/993deb7ce13466a939604ec639ed2da2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/993deb7ce13466a939604ec639ed2da2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9c88b562a9defa5afc93e39a90d584ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9c88b562a9defa5afc93e39a90d584ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/044f7498750190219102b9d5e231b46c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/044f7498750190219102b9d5e231b46c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9bec4027f8a7c1522b230cd4adca3b56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9bec4027f8a7c1522b230cd4adca3b56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9feb6a669b7a5f312a30450b50e68cfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9feb6a669b7a5f312a30450b50e68cfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ae9944775905b19cd7945f2e6dee345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ae9944775905b19cd7945f2e6dee345/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4bb6d5925ee87889430659090cfc95ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4bb6d5925ee87889430659090cfc95ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ea59d90d59724dc34b6be54de4b5fa32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ea59d90d59724dc34b6be54de4b5fa32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b2d01fa97d54b9314f888d14057abba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b2d01fa97d54b9314f888d14057abba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fd7d04e21f01ffaa885ace597f73ed7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fd7d04e21f01ffaa885ace597f73ed7/AndroidManifest.xml:20:5-44
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [com.android.support:design:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/224a5816baaf96ea3e63026824fb13e0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/224a5816baaf96ea3e63026824fb13e0/AndroidManifest.xml:22:5-20
+MERGED from [:widgets-release:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/214d392662592a5065321a22df75295f/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/214d392662592a5065321a22df75295f/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/005e6410cc66af4fc890b74b445bdb8e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/005e6410cc66af4fc890b74b445bdb8e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/deyvidyury/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16796ffe4dd3c797baf711bc34b54c9f/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:icon
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:allowBackup
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/AndroidManifest.xml:41:13-55

@@ -1,0 +1,4 @@
+/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/assets/app/bundle.js
+/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/assets/app/vendor.js
+/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/assets/app/starter.js
+/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/assets/app/tns-java-classes.js

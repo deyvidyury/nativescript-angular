@@ -1,0 +1,1 @@
+/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/platforms/android/app/src/main/assets/metadata
