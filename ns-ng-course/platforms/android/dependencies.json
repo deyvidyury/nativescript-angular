@@ -4,6 +4,14 @@
         "directory": "../../node_modules/nativescript-angular"
     },
     {
+        "name": "nativescript-insomnia",
+        "directory": "../../node_modules/nativescript-insomnia"
+    },
+    {
+        "name": "nativescript-orientation",
+        "directory": "../../node_modules/nativescript-orientation"
+    },
+    {
         "name": "nativescript-theme-core",
         "directory": "../../node_modules/nativescript-theme-core"
     },
@@ -14,6 +22,14 @@
     {
         "name": "nativescript-intl",
         "directory": "../../node_modules/nativescript-intl"
+    },
+    {
+        "name": "nativescript-dom",
+        "directory": "../../node_modules/nativescript-dom"
+    },
+    {
+        "name": "nativescript-globalevents",
+        "directory": "../../node_modules/nativescript-globalevents"
     },
     {
         "name": "tns-core-modules-widgets",

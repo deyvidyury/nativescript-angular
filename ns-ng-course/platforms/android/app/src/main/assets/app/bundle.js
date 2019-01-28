@@ -178,45 +178,9 @@ exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/c
 exports.i(__webpack_require__("../node_modules/css-loader/index.js?!../node_modules/nativescript-theme-core/css/core.light.css"), "");
 
 // module
-exports.push([module.i, "/*\nIn NativeScript, the app.css file is where you place CSS rules that\nyou would like to apply to your entire application. Check out\nhttp://docs.nativescript.org/ui/styling for a full list of the CSS\nselectors and properties you can use to style UI components.\n\n/*\nIn many cases you may want to use the NativeScript core theme instead\nof writing your own CSS rules. For a full list of class names in the theme\nrefer to http://docs.nativescript.org/ui/theme.\n*/\n", ""]);
+exports.push([module.i, "/*\nIn NativeScript, the app.css file is where you place CSS rules that\nyou would like to apply to your entire application. Check out\nhttp://docs.nativescript.org/ui/styling for a full list of the CSS\nselectors and properties you can use to style UI components.\n\n/*\nIn many cases you may want to use the NativeScript core theme instead\nof writing your own CSS rules. For a full list of class names in the theme\nrefer to http://docs.nativescript.org/ui/theme.\n*/\n\n.btn {\n  background: purple;\n  border-width: 1;\n  border-color: purple;\n  color: white;\n  width: 100%;\n  padding: 5 10;\n  border-radius: 30%;\n  margin: 5 0;\n}\n\n.form-control {\n  border-bottom-color: purple;\n  border-bottom-width: 1;\n  margin: 5;\n}", ""]);
 
 // exports
-
-
-/***/ }),
-
-/***/ "./app/app-routing.module.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var nativescript_angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/nativescript-angular/router/index.js");
-/* harmony import */ var nativescript_angular_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _item_items_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/item/items.component.ts");
-/* harmony import */ var _item_item_detail_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/item/item-detail.component.ts");
-
-
-
-
-var routes = [
-    { path: "", redirectTo: "/items", pathMatch: "full" },
-    { path: "items", component: _item_items_component__WEBPACK_IMPORTED_MODULE_2__["ItemsComponent"] },
-    { path: "item/:id", component: _item_item_detail_component__WEBPACK_IMPORTED_MODULE_3__["ItemDetailComponent"] },
-];
-var AppRoutingModule = /** @class */ (function () {
-    function AppRoutingModule() {
-    }
-    AppRoutingModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            imports: [nativescript_angular_router__WEBPACK_IMPORTED_MODULE_1__["NativeScriptRouterModule"].forRoot(routes)],
-            exports: [nativescript_angular_router__WEBPACK_IMPORTED_MODULE_1__["NativeScriptRouterModule"]]
-        })
-    ], AppRoutingModule);
-    return AppRoutingModule;
-}());
-
 
 
 /***/ }),
@@ -224,7 +188,7 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "./app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->\n<page-router-outlet></page-router-outlet>\n"
+module.exports = "<!-- <StackLayout>\n</StackLayout> -->\n<GridLayout>\n  <ns-current-challenge></ns-current-challenge>\n</GridLayout>\n<!-- <ns-stack></ns-stack> -->\n<!-- <ns-flexbox></ns-flexbox> -->\n<!-- <ns-grid></ns-grid> -->"
 
 /***/ }),
 
@@ -261,18 +225,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/nativescript-angular/nativescript.module.js");
 /* harmony import */ var nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/app.component.ts");
-/* harmony import */ var _item_items_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./app/item/items.component.ts");
-/* harmony import */ var _item_item_detail_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./app/item/item-detail.component.ts");
-
-
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/app.component.ts");
+/* harmony import */ var _challenges_current_challenge_current_challenge_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/challenges/current-challenge/current-challenge.component.ts");
+/* harmony import */ var nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("../node_modules/nativescript-angular/forms/index.js");
+/* harmony import */ var nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _layouts_stack_stack_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./app/layouts/stack/stack.component.ts");
+/* harmony import */ var _layouts_flexbox_flexbox_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./app/layouts/flexbox/flexbox.component.ts");
+/* harmony import */ var _layouts_grid_grid_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./app/layouts/grid/grid.component.ts");
 
 
 
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
+
+
+
+
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 var AppModule = /** @class */ (function () {
@@ -283,22 +251,11 @@ var AppModule = /** @class */ (function () {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            bootstrap: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
-            ],
-            imports: [
-                nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__["NativeScriptModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]
-            ],
-            declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _item_items_component__WEBPACK_IMPORTED_MODULE_4__["ItemsComponent"],
-                _item_item_detail_component__WEBPACK_IMPORTED_MODULE_5__["ItemDetailComponent"]
-            ],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]],
+            imports: [nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__["NativeScriptModule"], nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_4__["NativeScriptFormsModule"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _challenges_current_challenge_current_challenge_component__WEBPACK_IMPORTED_MODULE_3__["CurrentChallengeComponent"], _layouts_stack_stack_component__WEBPACK_IMPORTED_MODULE_5__["StackComponent"], _layouts_flexbox_flexbox_component__WEBPACK_IMPORTED_MODULE_6__["FlexboxComponent"], _layouts_grid_grid_component__WEBPACK_IMPORTED_MODULE_7__["GridComponent"]],
             providers: [],
-            schemas: [
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["NO_ERRORS_SCHEMA"]
-            ]
+            schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["NO_ERRORS_SCHEMA"]]
         })
         /*
         Pass your application module to the bootstrapModule function located in main.ts to start your app
@@ -311,113 +268,174 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/item/item-detail.component.html":
+/***/ "./app/challenges/current-challenge/current-challenge.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "<ActionBar title=\"Details\" class=\"action-bar\"></ActionBar>\n<FlexboxLayout flexDirection=\"column\" class=\"page\">\n    <FlexboxLayout class=\"m-15\">\n        <Label class=\"h2\" [text]=\"item.id + '. '\"></Label>\n        <Label class=\"h2\" [text]=\"item.name\"></Label>\n    </FlexboxLayout>\n    <Label class=\"h4\" [text]=\"item.role\"></Label>\n</FlexboxLayout>\n"
+module.exports = ".title {\n  font-size: 26;\n  text-align: center;\n  color: purple;\n  font-weight: bold;\n  margin-top: 10\n}"
 
 /***/ }),
 
-/***/ "./app/item/item-detail.component.ts":
+/***/ "./app/challenges/current-challenge/current-challenge.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<GridLayout rows=\"auto,*\" columns=\"2*,*\">\n  <TextField class=\"form-control\" [(ngModel)]=\"challengeDescription\" hint=\"Challenge title\" row=\"0\" col=\"0\"></TextField>\n  <Button class=\"btn\" (tap)=\"onSetChallenge()\" text=\"Set Challenge\" row=\"0\" col=\"1\"></Button>\n  <Label class=\"title\" [text]=\"currentChallenge\" row=\"1\" col=\"0\" colSpan=\"2\"></Label>\n</GridLayout>"
+
+/***/ }),
+
+/***/ "./app/challenges/current-challenge/current-challenge.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailComponent", function() { return ItemDetailComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CurrentChallengeComponent", function() { return CurrentChallengeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _item_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/item/item.service.ts");
 
-
-
-var ItemDetailComponent = /** @class */ (function () {
-    function ItemDetailComponent(itemService, route) {
-        this.itemService = itemService;
-        this.route = route;
+var CurrentChallengeComponent = /** @class */ (function () {
+    function CurrentChallengeComponent() {
+        this.challengeDescription = "";
+        this.currentChallenge = "";
     }
-    ItemDetailComponent.prototype.ngOnInit = function () {
-        var id = +this.route.snapshot.params["id"];
-        this.item = this.itemService.getItem(id);
+    CurrentChallengeComponent.prototype.onSetChallenge = function () {
+        this.currentChallenge = this.challengeDescription;
     };
-    ItemDetailComponent = __decorate([
+    CurrentChallengeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: "ns-details",
-            template: __webpack_require__("./app/item/item-detail.component.html"),
-        }),
-        __metadata("design:paramtypes", [_item_service__WEBPACK_IMPORTED_MODULE_2__["ItemService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
-    ], ItemDetailComponent);
-    return ItemDetailComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./app/item/item.service.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemService", function() { return ItemService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-
-var ItemService = /** @class */ (function () {
-    function ItemService() {
-        this.items = new Array({ id: 1, name: "Ter Stegen", role: "Goalkeeper" }, { id: 3, name: "Piqué", role: "Defender" }, { id: 4, name: "I. Rakitic", role: "Midfielder" }, { id: 5, name: "Sergio", role: "Midfielder" }, { id: 6, name: "Denis Suárez", role: "Midfielder" }, { id: 7, name: "Arda", role: "Midfielder" }, { id: 8, name: "A. Iniesta", role: "Midfielder" }, { id: 9, name: "Suárez", role: "Forward" }, { id: 10, name: "Messi", role: "Forward" }, { id: 11, name: "Neymar", role: "Forward" }, { id: 12, name: "Rafinha", role: "Midfielder" }, { id: 13, name: "Cillessen", role: "Goalkeeper" }, { id: 14, name: "Mascherano", role: "Defender" }, { id: 17, name: "Paco Alcácer", role: "Forward" }, { id: 18, name: "Jordi Alba", role: "Defender" }, { id: 19, name: "Digne", role: "Defender" }, { id: 20, name: "Sergi Roberto", role: "Midfielder" }, { id: 21, name: "André Gomes", role: "Midfielder" }, { id: 22, name: "Aleix Vidal", role: "Midfielder" }, { id: 23, name: "Umtiti", role: "Defender" }, { id: 24, name: "Mathieu", role: "Defender" }, { id: 25, name: "Masip", role: "Goalkeeper" });
-    }
-    ItemService.prototype.getItems = function () {
-        return this.items;
-    };
-    ItemService.prototype.getItem = function (id) {
-        return this.items.filter(function (item) { return item.id === id; })[0];
-    };
-    ItemService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
-            providedIn: "root"
+            selector: "ns-current-challenge",
+            template: __webpack_require__("./app/challenges/current-challenge/current-challenge.component.html"),
+            styles: [__webpack_require__("./app/challenges/current-challenge/current-challenge.component.css")]
         })
-    ], ItemService);
-    return ItemService;
+    ], CurrentChallengeComponent);
+    return CurrentChallengeComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./app/item/items.component.html":
+/***/ "./app/layouts/flexbox/flexbox.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "<!--\nThe template defines the view of the component - what is actually rendered.\nIn NativeScript applications the template is defined with XML using NativeScript UI elements.\nIt is different from HTML. So instead of <input>, <span>, <div> etc. - we have <TextField>, <Label> and layouts.\nThe important thing is that although the elements are different - all of the Angular’s template syntax works exactly the same.\nSo you can still use template expressions, bindings, templates as well as all the built-in directives.\n-->\n\n<!--\nThe ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.\nhttp://docs.nativescript.org/ui/action-bar\n-->\n<ActionBar title=\"My App\" class=\"action-bar\">\n</ActionBar>\n\n<!--\nThe StackLayout stacks UI components on the screen — either vertically or horizontally.\nIn this case, the StackLayout does vertical stacking; you can change the stacking to\nhorizontal by applying a orientation=\"horizontal\" attribute to the <StackLayout> element.\nYou can learn more about NativeScript layouts at https://docs.nativescript.org/ui/layout-containers.\n\nThese components make use of several CSS class names that are part of the NativeScript\ncore theme, such as p-20, btn, h2, and list-group. You can view a full list of the\nclass names available for styling your app at https://docs.nativescript.org/ui/theme.\n-->\n<StackLayout class=\"page\">\n    <ListView [items]=\"items\" class=\"list-group\">\n        <ng-template let-item=\"item\">\n            <Label [nsRouterLink]=\"['/item', item.id]\" [text]=\"item.name\"\n                class=\"list-group-item\"></Label>\n        </ng-template>\n    </ListView>\n</StackLayout>\n"
+module.exports = "/* Add mobile styles for the component here.  */\nFlexboxLayout {\n  border-color: green;\n  border-width: 5;\n  height: 300;\n}\n\n#topFlexbox {\n  height: 33%;\n}\n\n#leftFlexbox {\n  width: 33%\n}\n\n#leftFlexbox #i1,\n#leftFlexbox #i2,\n#leftFlexbox #i3 {\n  margin: 0 20;\n}\n\n#rightFlexbox {\n  width: 66%;\n}\n\nLabel {\n  background-color: red;\n  width: 50;\n  height: 50;\n}\n\n#i1 {\n  background: red;\n}\n\n#i2 {\n  background: blue\n}\n\n#i3 {\n  background: orange;\n}"
 
 /***/ }),
 
-/***/ "./app/item/items.component.ts":
+/***/ "./app/layouts/flexbox/flexbox.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<StackLayout>\n  <FlexboxLayout id=\"topFlexbox\" justifyContent=\"space-between\">\n    <Label id=\"i1\" text=\"Item 1\" alignSelf=\"flex-start\"></Label>\n    <Label id=\"i2\" text=\"Item 2\" alignSelf=\"flex-end\"></Label>\n    <Label id=\"i3\" text=\"Item 3\" alignSelf=\"flex-start\"></Label>\n  </FlexboxLayout>\n  <FlexboxLayout id=\"bottomFlexbox\">\n    <FlexboxLayout id=\"leftFlexbox\" flexDirection=\"column\" justifyContent=\"space-around\">\n      <Label id=\"i1\" text=\"Item 1\"></Label>\n      <Label id=\"i2\" text=\"Item 2\"></Label>\n      <Label id=\"i3\" text=\"Item 3\"></Label>\n    </FlexboxLayout>\n    <FlexboxLayout id=\"rightFlexbox\" flexDirection=\"column\" justifyContent=\"space-around\">\n      <Label id=\"i1\" text=\"Item 1\"></Label>\n      <Label id=\"i2\" text=\"Item 2\"></Label>\n    </FlexboxLayout>\n  </FlexboxLayout>\n</StackLayout>"
+
+/***/ }),
+
+/***/ "./app/layouts/flexbox/flexbox.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemsComponent", function() { return ItemsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FlexboxComponent", function() { return FlexboxComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _item_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./app/item/item.service.ts");
 
-
-var ItemsComponent = /** @class */ (function () {
-    // This pattern makes use of Angular’s dependency injection implementation to inject an instance of the ItemService service into this class.
-    // Angular knows about this service because it is included in your app’s main NgModule, defined in app.module.ts.
-    function ItemsComponent(itemService) {
-        this.itemService = itemService;
+var orientation = __webpack_require__("../node_modules/nativescript-orientation/orientation.js");
+var FlexboxComponent = /** @class */ (function () {
+    function FlexboxComponent() {
     }
-    ItemsComponent.prototype.ngOnInit = function () {
-        this.items = this.itemService.getItems();
+    FlexboxComponent.prototype.ngOnInit = function () {
+        orientation.setOrientation("landscape");
     };
-    ItemsComponent = __decorate([
+    FlexboxComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: "ns-items",
-            template: __webpack_require__("./app/item/items.component.html"),
+            selector: "ns-flexbox",
+            template: __webpack_require__("./app/layouts/flexbox/flexbox.component.html"),
+            styles: [__webpack_require__("./app/layouts/flexbox/flexbox.component.css")]
         }),
-        __metadata("design:paramtypes", [_item_service__WEBPACK_IMPORTED_MODULE_1__["ItemService"]])
-    ], ItemsComponent);
-    return ItemsComponent;
+        __metadata("design:paramtypes", [])
+    ], FlexboxComponent);
+    return FlexboxComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/layouts/grid/grid.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "/* Add mobile styles for the component here.  */\nLabel {\n  background: orange;\n  text-align: center;\n}"
+
+/***/ }),
+
+/***/ "./app/layouts/grid/grid.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<GridLayout rows=\"50,*,auto,auto,20,2*\" columns=\"200,*,auto,2*\">\n  <Label text=\"A\" row=\"0\" col=\"0\"></Label>\n  <Label text=\"B\" row=\"1\" col=\"1\"></Label>\n  <Label text=\"C\" row=\"2\" col=\"2\"></Label>\n  <Label text=\"D\" row=\"3\" col=\"3\"></Label>\n  <Label text=\"E\" row=\"5\" col=\"1\"></Label>\n</GridLayout>"
+
+/***/ }),
+
+/***/ "./app/layouts/grid/grid.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GridComponent", function() { return GridComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+
+var orientation = __webpack_require__("../node_modules/nativescript-orientation/orientation.js");
+var GridComponent = /** @class */ (function () {
+    function GridComponent() {
+    }
+    GridComponent.prototype.ngOnInit = function () {
+        orientation.setOrientation("landscape");
+    };
+    GridComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: "ns-grid",
+            template: __webpack_require__("./app/layouts/grid/grid.component.html"),
+            styles: [__webpack_require__("./app/layouts/grid/grid.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GridComponent);
+    return GridComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/layouts/stack/stack.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "StackLayout {\n  border-color: green;\n  border-width: 5;\n  padding: 10;\n  height: 300;\n}\n\nLabel {\n  background-color: red;\n  width: 50;\n  height: 50;\n}\n\n#i1 {\n  background: red;\n}\n\n#i2 {\n  background: blue\n}\n\n#i3 {\n  background: orange;\n}"
+
+/***/ }),
+
+/***/ "./app/layouts/stack/stack.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<StackLayout>\n  <Label id=\"i1\" text=\"Item 1\" horizontalAlignment=\"right\"></Label>\n  <Label id=\"i2\" text=\"Item 2\" verticalAlignment=\"top\"></Label>\n  <Label id=\"i3\" text=\"Item 3\"></Label>\n</StackLayout>"
+
+/***/ }),
+
+/***/ "./app/layouts/stack/stack.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StackComponent", function() { return StackComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+
+var StackComponent = /** @class */ (function () {
+    function StackComponent() {
+    }
+    StackComponent.prototype.ngOnInit = function () {
+    };
+    StackComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ns-stack',
+            template: __webpack_require__("./app/layouts/stack/stack.component.html"),
+            styles: [__webpack_require__("./app/layouts/stack/stack.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], StackComponent);
+    return StackComponent;
 }());
 
 
@@ -432,6 +450,8 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var nativescript_angular_platform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/nativescript-angular/platform.js");
 /* harmony import */ var nativescript_angular_platform__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_platform__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./app/app.module.ts");
+/* harmony import */ var nativescript_insomnia__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/nativescript-insomnia/insomnia.js");
+/* harmony import */ var nativescript_insomnia__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nativescript_insomnia__WEBPACK_IMPORTED_MODULE_2__);
 
         let applicationCheckPlatform = __webpack_require__("../node_modules/tns-core-modules/application/application.js");
         if (applicationCheckPlatform.android && !global["__snapshot"]) {
@@ -446,11 +466,13 @@ __webpack_require__("../node_modules/tns-core-modules/ui/frame/activity.js");
         // this import should be first in order to load some required settings (like globals and reflect-metadata)
 
 
-// A traditional NativeScript application starts by initializing global objects, setting up global CSS rules, creating, and navigating to the main page.
-// Angular applications need to take care of their own initialization: modules, components, directives, routes, DI providers.
-// A NativeScript Angular app needs to make both paradigms work together, so we provide a wrapper platform object, platformNativeScriptDynamic,
-// that sets up a NativeScript application and can bootstrap the Angular framework.
-Object(nativescript_angular_platform__WEBPACK_IMPORTED_MODULE_0__["platformNativeScriptDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"]);
+
+var options = {};
+if (false) { var hmrUpdate_1; }
+Object(nativescript_insomnia__WEBPACK_IMPORTED_MODULE_2__["keepAwake"])().then(function () {
+    console.log("Insomnia is active");
+});
+Object(nativescript_angular_platform__WEBPACK_IMPORTED_MODULE_0__["platformNativeScriptDynamic"])(options).bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"]);
 
     
         

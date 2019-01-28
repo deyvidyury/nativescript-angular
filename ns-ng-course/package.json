@@ -22,6 +22,8 @@
         "@angular/platform-browser-dynamic": "~7.1.0",
         "@angular/router": "~7.1.0",
         "nativescript-angular": "~7.1.0",
+        "nativescript-insomnia": "^1.2.2",
+        "nativescript-orientation": "^2.2.1",
         "nativescript-theme-core": "~1.0.4",
         "reflect-metadata": "~0.1.8",
         "rxjs": "~6.3.0",
