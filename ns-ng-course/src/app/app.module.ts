@@ -6,9 +6,10 @@ import { CurrentChallengeComponent } from "./challenges/current-challenge/curren
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
-import { StackComponent } from './layouts/stack/stack.component';
-import { FlexboxComponent } from './layouts/flexbox/flexbox.component';
-import { GridComponent } from './layouts/grid/grid.component';
+import { StackComponent } from "./layouts/stack/stack.component";
+import { FlexboxComponent } from "./layouts/flexbox/flexbox.component";
+import { GridComponent } from "./layouts/grid/grid.component";
+import { ChallengeEdirComponent } from "./challenges/challenge-edit/challenge-edit.component";
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -16,7 +17,14 @@ import { GridComponent } from './layouts/grid/grid.component';
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, NativeScriptFormsModule],
-  declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, GridComponent],
+  declarations: [
+    AppComponent,
+    CurrentChallengeComponent,
+    StackComponent,
+    FlexboxComponent,
+    GridComponent,
+    ChallengeEdirComponent
+  ],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA]
 })

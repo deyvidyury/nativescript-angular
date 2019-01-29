@@ -1,12 +1,15 @@
 {
 	"nativePlatformStatus": "3",
 	"appFilesHashes": {
-		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.component.html": "0144bb6a11f04f2da571850c11b695e4c0c7720a",
-		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.component.ts": "6f32091fe48b1ec7bcb22035237249748b41a9e6",
-		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.module.ts": "ee7eebbdeeb5fab1b7bc54a32a64f9e01077de39",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.component.html": "c8cc1f8f35645a3387bd7be836faacdbf29cdb38",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.component.ts": "e05e97c0d68880074f4e9058341e4ad511af743b",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/app.module.ts": "58e8efb4f9b970f944049163c6390e6de5e2aaa5",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/challenge-edit/challenge-edit.component.css": "b7da5eed558f69f65f54d63d3c212673e50b237b",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/challenge-edit/challenge-edit.component.html": "da26efcc88634ac6a44837bb5c5e7211d4d6cde5",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/challenge-edit/challenge-edit.component.ts": "9ffb00e2ea7f318ac194a78eda43aadab06a3f8c",
 		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/current-challenge/current-challenge.component.css": "553c2a52f3a4740ef2b722f6627ee167c0c50a77",
-		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/current-challenge/current-challenge.component.html": "f08360d5c5a211cd5dd37585df450961535825b0",
-		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/current-challenge/current-challenge.component.ts": "aa0f6fb8615fe3bbb576b000533d54fd95a56a38",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/current-challenge/current-challenge.component.html": "80e214f46866883716122e6a4919be9eaeaa1429",
+		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/challenges/current-challenge/current-challenge.component.ts": "079df53c21ff3a11ef5be95e394e1168cc0ffdee",
 		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/layouts/flexbox/flexbox.component.css": "fba5f3007889f9e6867531feee565a461690c826",
 		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/layouts/flexbox/flexbox.component.html": "e18fef5ed9039d4030da2667a211e2578e75767f",
 		"/Users/deyvidyury/Developer/nativescript-angular/ns-ng-course/src/app/layouts/flexbox/flexbox.component.ts": "7b7a0d80f4ff8faa94679a2ede4e05cdb4f41b27",
@@ -23,7 +26,7 @@
 	"release": false,
 	"bundle": true,
 	"changesRequireBuild": false,
-	"time": "Mon Jan 28 2019 09:55:32 GMT-0300 (Brasilia Standard Time)",
+	"time": "Mon Jan 28 2019 11:21:12 GMT-0300 (Brasilia Standard Time)",
 	"changesRequireBuildTime": "Sun Jan 27 2019 18:08:44 GMT-0300 (Brasilia Standard Time)",
 	"projectFileHash": "700eb3de6663e507e8208eab9b0bd87767aea293406f1bd948e6d265c364655d"
 }

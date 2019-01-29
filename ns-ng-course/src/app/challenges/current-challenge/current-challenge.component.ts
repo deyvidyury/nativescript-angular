@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Input } from "@angular/core";
+import { ItemEventData } from "tns-core-modules/ui/list-view";
 
 @Component({
   selector: "ns-current-challenge",
@@ -7,10 +8,7 @@ import { Component } from "@angular/core";
   moduleId: module.id
 })
 export class CurrentChallengeComponent {
-  challengeDescription = "";
-  currentChallenge = "";
+  @Input() challenges: string[] = [];
 
-  onSetChallenge() {
-    this.currentChallenge = this.challengeDescription;
-  }
+  onItemTap(args: ItemEventData) {}
 }
