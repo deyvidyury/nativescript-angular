@@ -9,6 +9,8 @@
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,
     "nativescript-angular": true,
+    "nativescript-insomnia": true,
+    "nativescript-orientation": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,
     "rxjs": true,
@@ -16,5 +18,7 @@
     "zone.js": true,
     "tslib": true,
     "nativescript-intl": true,
+    "nativescript-dom": true,
+    "nativescript-globalevents": true,
     "tns-core-modules-widgets": true
 }
